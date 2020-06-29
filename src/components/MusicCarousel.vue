@@ -29,9 +29,9 @@
             return{
                 index: 0,
                 musicItems:[
-                    {id: 0, title: 'Sod\'s Law', date: '2019', coverUrl: 'cover1'},
-                    {id: 1, title: 'S A U D A D E', date: '2019', coverUrl: 'cover2'},
-                    {id: 2, title: 'Take Me Away', date: '2019', coverUrl: 'cover3'},
+                    {id: 0, title: 'Sod\'s Law', date: '2019', coverUrl: 'cover1', links: ['https://vk.com', 'https://youtube.com']},
+                    {id: 1, title: 'S A U D A D E', date: '2019', coverUrl: 'cover2', links: []},
+                    {id: 2, title: 'Take Me Away', date: '2019', coverUrl: 'cover3', links: []},
                 ],
                 swiperOption: {
                     touchStartPreventDefault: false,
